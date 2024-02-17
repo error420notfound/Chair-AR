@@ -1,25 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Hello World Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Website</title>
   <style>
     body {
-      padding: 20px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
       text-align: center;
     }
 
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #4CAF50;
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
       color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
-  <h1>”Hello, World!”</h1>
-  <button>Click me</button>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>This is a simple website to demonstrate basic HTML structure.</p>
+    <p>Feel free to explore and modify the content!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Simple Website</p>
+  </footer>
+
 </body>
 </html>
