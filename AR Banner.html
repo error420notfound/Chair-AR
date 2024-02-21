@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heading and SVG Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .left-content {
+      width: 50%;
+    }
+
+    .right-content {
+      width: 50%;
+      text-align: center;
+    }
+
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+  <div class="left-content">
+    <h1>Heading on the Left</h1>
+    <p>This is the body text on the left side.</p>
+  </div>
+
+  <div class="right-content">
+    <!-- Replace the following SVG code with your own -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="15" y1="9" x2="9" y2="15" />
+      <line x1="9" y1="9" x2="15" y2="15" />
+    </svg>
+  </div>
 
 </body>
 </html>
